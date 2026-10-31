@@ -62,3 +62,11 @@ The RBA dataset displayed a cash rate increase from **4.35% to 4.60%** during th
 - Risk thresholds are illustrative and would require validation before operational use.
 - The 90-day reporting window depends on the available source data and refresh process.
 - The dashboard describes historical patterns and does not forecast market performance.
+
+## AI Assistance and Validation
+
+OpenAI's ChatGPT (GPT-6) was used as an AI assistant during the development of the Power BI dashboard. It provided guidance on creating DAX measures, configuring visualisations, improving dashboard layout, and developing the Red/Amber/Green (RAG) risk indicator.
+
+AI assistance was particularly useful when introducing measures to count Green, Amber, and Red trading days and validating these counts against the total number of trading days within the 90-day reporting period.
+
+The AI-generated suggestions were reviewed and implemented manually in Power BI. The final dashboard was checked against the curated datasets to ensure that the calculations, visualisations, and explanations were appropriate for the project's objectives. ChatGPT supported the development process, while responsibility for the final implementation and interpretation remained with the project team.
